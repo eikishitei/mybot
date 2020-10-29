@@ -1,5 +1,5 @@
 source "https://rubygems.org"
 
-gemspec
-
+#gemspec
+gem 'lita'
 gem 'lita-slack'
