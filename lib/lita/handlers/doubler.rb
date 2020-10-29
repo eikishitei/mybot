@@ -3,10 +3,10 @@ module Lita
     class Doubler < Handler
       # insert handler code here
       route(
-        /^double\s+(\d+)$/i,
+	/^double\s+(\d+)$/i,
 	:respond_with_double,
 	command: true,
-	help: { 'double N' => 'prints N + N'}
+	help: {'double N' => 'prints N + N'}
       )
 
       def respond_with_double(response)
